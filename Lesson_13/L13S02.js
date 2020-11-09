@@ -1,11 +1,13 @@
 //
 // L13S02 - Multiple cases
 //
-// Using the switch statement
+// Using the switch break statement
 var level = 5;
 var message = '';
-switch (level) {
-  case 0:
+
+// Switch code with 'switch', 'case', 'break', and 'default' keywords
+switch (level) { //level can only be primative so strings and numbers
+  case 0: // case has to match the primative string or number of level
     message = 'Empty';
     break;
 
@@ -14,8 +16,10 @@ switch (level) {
     message = 'Low';
     break;
 
-  case 3: // Warning - what's wrong with case 3?
+  case 3: 
     message = 'Medium';
+    break;
+    
   case 4:
     message = 'High';
     break;
