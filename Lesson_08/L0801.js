@@ -22,7 +22,7 @@ var abc = a + b + c
 
 //Displays
 
-gs.info(a.length)
-gs.info(b.length)
-gs.info(c.length)
-gs.info(abc.length)
+gs.info('What is the length of variable a? ' + a.length)
+gs.info('What is the length of variable b? ' + b.length)
+gs.info('What is the length of variable c? ' + c.length)
+gs.info('What is the length of variable abc? ' + abc.length)
