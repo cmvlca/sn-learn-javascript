@@ -3,8 +3,26 @@
 //
 var i = 5;
 var iStr = i.toString();
-gs.info(typeof i);
-gs.info(typeof iStr);
+gs.info('type of i=' + typeof i);
+gs.info('type of iStr=' + typeof iStr);
 
 var n = parseInt(iStr);
+var f = parseFloat(iStr);
+gs.info('f=' +  f);
 gs.info(typeof n + ' n=' + n);
+
+gs.info('n + i=' + (n+i));
+
+// homework: 3 variables, show length of each variable, show length of all variables concatenated
+//Variables
+var a = 'How ';
+var b = 'are ';
+var c = 'you?';
+var abc = a + b + c
+
+//Displays
+
+gs.info(a.length)
+gs.info(b.length)
+gs.info(c.length)
+gs.info(abc.length)
